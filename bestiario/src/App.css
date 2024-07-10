@@ -1,11 +1,15 @@
-#root {
+
+
+body {
   background-image: url(../Imagenes/backgroundDesk.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+  height: 100%;
   padding: 0 1rem;
+  overflow-x: hidden;
 }
 
 .title{
@@ -16,10 +20,13 @@
 }
 
 .form-container{
+  width: 100%;
+  height: 80px;
   border-radius: 10px;
   padding: 10px;
   color: white; 
-  width: 100%;
+  display: flex;
+  justify-content: center;
   backdrop-filter: blur(5px);
 }
 
@@ -36,7 +43,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 .card {
@@ -47,7 +54,6 @@
   background-color: #000000;
   overflow: hidden;
   width: calc(19% - 20px); /* Ajusta el ancho para que haya 5 tarjetas por fila */
-  float: left;
 }
 
 .card img {
@@ -98,11 +104,6 @@
    font-weight: 600;
 }
 
-.card-container {
-  width: 100%;
-  overflow: hidden;
-}
-
 button[type="submit"]{
   background-color: rgba(223, 0, 0, 0.63);
 }
@@ -146,14 +147,95 @@ button[type="submit"]{
     border-radius: 10px;
     padding: 10px;
     color: white; 
-    width: 100%;
+    width: 350px;
     max-width: 95%;
     backdrop-filter: blur(90px);
   }
+  
+  .card-container {
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto 10px 0;
+  }
+  
+  .card {
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #000000;
+    overflow: hidden;
+    width: calc(60% - 20px); /* Ajusta el ancho para que haya 5 tarjetas por fila */
+  }
+  
+  .card img {
+    width: auto;
+    margin: 0 auto;
+    height: 200px;
+  }
+  
+  .card h2 {
+    background-color: #000000;
+    color: #d31818;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: -25px;
+  }
+  
+  .card .info-container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .card .info-container p {
+    font-size: 13px;
+    margin-bottom: -18px;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  
+  .card .info-container p strong {
+    font-size: 15px;
+    padding-left: 10px;
+    color: #ff3030a2;
+  }
+  
+  .card .info-container ul {
+    margin-top: 13px;
+    font-size: 13px;
+    padding-left: 20px;
+    gap: 10px;
+  }
+  
+  .card .info-container ul li {
+    font-size: 13px;
+    list-style-type: none;
+     font-weight: 500;
+  }
+  
 }
 
 @media (max-width: 576px) {
+  .app{
+    margin-left: -10px;
+    padding: 0;
+  }
+
   .card {
+    width: 90%; /* Mostrar 1 tarjeta por fila en pantallas pequeñas */
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: fit-content;
+  }
+
+  .card img{
     width: 100%; /* Mostrar 1 tarjeta por fila en pantallas pequeñas */
     margin-right: 0;
     margin-bottom: 20px;
@@ -161,10 +243,27 @@ button[type="submit"]{
 
   .form-container{
     border-radius: 10px;
-    padding: 10px;
     color: white; 
-    width: 100%;
-    max-width: 95%;
+    width: 350px;
+    height: fit-content;
     backdrop-filter: blur(90px);
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 60px 0;
+  }
+
+  .form-container input{
+    height: 25px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .form-container button[type="submit"]{
+    margin: 5px auto 0;
+    height: 35px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
   }
 }
