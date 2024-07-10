@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "nombre": "Esqueleto",
+    "strong": [
+      "Oscuridad"
+    ],
+    "drops": "Bronze",
+    "level": "1",
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-001.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Ejecutor",
+    "strong": [
+      "Trueno",
+      "Luz"
+    ],
+    "drops": "Hamburguesa",
+    "level": "2",
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-002.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Ghost",
+    "strong": [
+      "Dark"
+    ],
+    "drops": "$50",
+    "level": "3",
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-003.webp"
+  },
+  {
+    "nombre": "Hombre Pez",
+    "strong": [
+      "Ice",
+      "Fuego",
+      "Hielo",
+      "Agua"
+    ],
+    "drops": "Oro",
+    "level": "4",
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-004.webp",
+    "id": 4
+  },
+  {
+    "nombre": "Spirit",
+    "strong": [
+      "None"
+    ],
+    "drops": "Pocion",
+    "level": "5",
+    "id": 5,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720581878874-COD-005.webp"
+  },
+  {
+    "nombre": "Skeleton Blaze",
+    "strong": [
+      "Fire",
+      "Light"
+    ],
+    "drops": "Wild Memory",
+    "level": "5",
+    "id": 6,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720582112215-COD-006.webp"
+  },
+  {
+    "nombre": "Fenrir",
+    "strong": [
+      "Ice"
+    ],
+    "drops": "Hot dog",
+    "level": "5",
+    "id": 7,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720590076037-COD-007.webp"
+  },
+  {
+    "nombre": "Esqueleto Sangriento",
+    "strong": [
+      "Dark"
+    ],
+    "drops": "$50",
+    "level": "5",
+    "id": 8,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720591391354-COD-008.webp"
+  }
+]
