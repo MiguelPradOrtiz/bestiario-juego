@@ -1,26 +1,5 @@
 [
   {
-    "id": 1,
-    "nombre": "Esqueleto",
-    "strong": [
-      "Oscuridad"
-    ],
-    "drops": "Bronze",
-    "level": "1",
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-001.webp"
-  },
-  {
-    "id": 2,
-    "nombre": "Ejecutor",
-    "strong": [
-      "Trueno",
-      "Luz"
-    ],
-    "drops": "Hamburguesa",
-    "level": "2",
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-002.webp"
-  },
-  {
     "id": 3,
     "nombre": "Ghost",
     "strong": [
@@ -85,23 +64,14 @@
     "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720591391354-COD-008.webp"
   },
   {
-    "nombre": "awdAWDa",
+    "nombre": "Basilisco",
     "strong": [
-      "awdawdad"
+      "Viento",
+      "Oscuridad"
     ],
-    "drops": "awdawda",
-    "level": "12212",
+    "drops": "Jet Black",
+    "level": "6",
     "id": 9,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720652296846-pokemon-ball-house-anime-digital-art-2k-wallpaper-uhdpaper.com-68@1@o.jpg"
-  },
-  {
-    "nombre": "poawhjpdoajhpwd",
-    "strong": [
-      "opjpdjwopjopadop"
-    ],
-    "drops": "jopdjopwopdpojop",
-    "level": "21321312",
-    "id": 10,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720652398408-imgprofiole.jpg"
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720688142377-COD-010.webp"
   }
 ]
