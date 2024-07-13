@@ -5,6 +5,9 @@
     "strong": [
       "Dark"
     ],
+    "weak": [
+      "Dark"
+    ],
     "drops": "$50",
     "level": "3",
     "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-003.webp"
@@ -17,6 +20,9 @@
       "Hielo",
       "Agua"
     ],
+    "weak": [
+      "Dark"
+    ],
     "drops": "Oro",
     "level": "4",
     "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-004.webp",
@@ -27,6 +33,9 @@
     "strong": [
       "None"
     ],
+    "weak": [
+      "Dark"
+    ],
     "drops": "Pocion",
     "level": "5",
     "id": 5,
@@ -35,8 +44,20 @@
   {
     "nombre": "Skeleton Blaze",
     "strong": [
-      "Fire",
-      "Light"
+      "Viento",
+      "Agua",
+      "Oscuridad",
+      "Rayo",
+      "Sagrado",
+      "Hielo"
+    ],
+    "weak": [
+      "Viento",
+      "Agua",
+      "Oscuridad",
+      "Rayo",
+      "Sagrado",
+      "Hielo"
     ],
     "drops": "Wild Memory",
     "level": "5",
@@ -48,6 +69,9 @@
     "strong": [
       "Ice"
     ],
+    "weak": [
+      "Dark"
+    ],
     "drops": "Hot dog",
     "level": "5",
     "id": 7,
@@ -56,6 +80,9 @@
   {
     "nombre": "Esqueleto Sangriento",
     "strong": [
+      "Dark"
+    ],
+    "weak": [
       "Dark"
     ],
     "drops": "$50",
@@ -69,9 +96,39 @@
       "Viento",
       "Oscuridad"
     ],
+    "weak": [
+      "Dark"
+    ],
     "drops": "Jet Black",
     "level": "6",
     "id": 9,
     "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720688142377-COD-010.webp"
+  },
+  {
+    "nombre": "Esqueleto",
+    "strong": [
+      "Oscuridad"
+    ],
+    "weak": [
+      "Sagrado"
+    ],
+    "drops": "Bronce",
+    "level": "1",
+    "id": 10,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720853994473-COD-001.webp"
+  },
+  {
+    "nombre": "Verdugo",
+    "strong": [
+      "Viento",
+      "Rayo"
+    ],
+    "weak": [
+      "Agua"
+    ],
+    "drops": "Pizza",
+    "level": "2",
+    "id": 11,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720854059013-COD-002.webp"
   }
 ]
