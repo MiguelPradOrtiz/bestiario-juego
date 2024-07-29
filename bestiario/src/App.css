@@ -1,4 +1,7 @@
 
+.app{
+  width: 100vw;
+}
 
 body {
   background-image: url(../Imagenes/backgroundDesk.webp);
@@ -24,18 +27,19 @@ body {
   height: fit-content;
   border-radius: 10px;
   padding: 10px;
-  color: white; 
+  color: rgb(0, 0, 0); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px);
+  backdrop-filter: (5px);
 }
 
 .info-container-stats{
   width: 100%;
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .img-container-reg{
@@ -43,20 +47,8 @@ body {
 }
 
 .form-container input{
-  height: 25px;
-  width: auto;
-  padding: 5px 10px;
-  border-radius: 10px;
-  margin: 5px 10px;
-}
-
-.form-container button[type="submit"]{
-  height: 60px;
-  width: 170px;
-  padding: 5px 10px;
-  border-radius: 10px;
-  margin: 0 auto;
-  transition: background-color 0.1s ease-in-out;
+  color: #fff;
+  gap: 30px;
 }
 
 .form-container select{
@@ -233,18 +225,6 @@ body {
   font-weight: 600;
 }
 
-/* button[type="submit"]{
-  background-color: rgba(223, 0, 0, 0.63);
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.1s ease-in;
-} */
-
-button[type="submit"]:hover{
-  background-color: rgba(43, 255, 0, 0.63);
-}
 
 .info-container .delete-container{
   width: 100%;  

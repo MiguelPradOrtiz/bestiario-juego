@@ -1,7 +1,15 @@
 import axios from 'axios';
 import React from 'react'
 import { useState, useRef } from 'react';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
 
+const CustomTextCstm = styled(TextField)(({ theme }) => ({
+  '& .MuiInputLabel-root': {
+    color: 'white', // Cambia el color del label aquí
+  },
+}));
 
 function Formulario({addMonster}) {
     const [nombre, setNombre] = useState('');
@@ -66,13 +74,11 @@ function Formulario({addMonster}) {
   return (
     <>
     <form className="form-container" onSubmit={handleSubmit}>
-        <div className='info-container-stats'> 
-          <label>Nombre</label>
-          <input type="text" name='Nombre' placeholder="Nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} required />     
-          <label>Drops</label>  
-          <input type="text" placeholder="Drops" value={drops} onChange={(e) => setDrops(e.target.value)} required />
-          <label>Nivel</label>
-          <input type="number" min="0" placeholder="Nivel" value={level} onChange={(e) => setLevel(e.target.value)} required />
+
+        <div className='info-container-stats'>
+          <CustomTextCstm id="filled-basic" label="Nombre" variant="filled" color="primary" value={nombre} onChange={(e) => setNombre(e.target.value)} required/>  
+          <CustomTextCstm id="filled-basic" label="Drops" variant="filled" value={drops} onChange={(e) => setDrops(e.target.value)} required/>  
+          <CustomTextCstm id="filled-basic" label="Nivel" variant="filled" value={level} onChange={(e) => setLevel(e.target.value)} required/>  
         </div>
         <div className="checkbox-container">
           <span>Resistencias: </span>
@@ -96,7 +102,9 @@ function Formulario({addMonster}) {
           <input type="file" ref={imagenRef} onChange={(e) => setImagen(e.target.files[0])} required />
         </div>
         
-        <button type="submit">Agregar Monstruo</button>
+        <Button variant="contained" color="success" type="submit">
+          Guardar
+        </Button>
     </form>
     </>
   )
