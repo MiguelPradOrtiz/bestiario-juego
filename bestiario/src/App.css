@@ -230,6 +230,7 @@ body {
   width: 100%;  
   display: flex;
   justify-content: end;
+  align-items: center;
   position: relative;
   border-radius: 50%;
   margin: 0 40px 10px 0px;  

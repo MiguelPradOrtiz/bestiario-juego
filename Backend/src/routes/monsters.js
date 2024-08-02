@@ -42,6 +42,32 @@ router.get('/:id', (req, res) => {
     }
 });
 
+router.put('/:id', upload.single('imagen'), (req, res) => {
+    const id = parseInt(req.params.id);
+    const monsters = readMonsters();
+    const index = monsters.findIndex(monster => monster.id === id);
+
+    if (index !== -1) {
+        const updatedMonster = {
+            ...monsters[index],
+            ...req.body,
+            strong: typeof req.body.strong === 'string' ? req.body.strong.split(',').map(s => s.trim()) : req.body.strong,
+            weak: typeof req.body.weak === 'string' ? req.body.weak.split(',').map(s => s.trim()) : req.body.weak,
+        };
+
+        if (req.file) {
+            updatedMonster.url_imagen = `http://localhost:3000/imagenes/Castlevania/${req.file.filename}`;
+        }
+
+        monsters[index] = updatedMonster;
+        writeMonster(monsters);
+
+        res.json(updatedMonster);
+    } else {
+        res.status(404).json({ message: 'Monstruo no encontrado' });
+    }
+});
+
 router.post('/', upload.single('imagen'), (req, res) => {
     const newMonster = req.body;
     const monsters = readMonsters();

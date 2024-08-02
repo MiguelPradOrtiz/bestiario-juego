@@ -3,30 +3,26 @@
     "id": 3,
     "nombre": "Ghost",
     "strong": [
-      "Dark"
-    ],
-    "weak": [
-      "Dark"
-    ],
-    "drops": "$50",
-    "level": "3",
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-003.webp"
-  },
-  {
-    "nombre": "Hombre Pez",
-    "strong": [
-      "Ice",
+      "Agua",
+      "Rayo",
+      "Viento",
       "Fuego",
-      "Hielo",
-      "Agua"
+      "Oscuridad",
+      "Sagrado",
+      "Hielo"
     ],
     "weak": [
-      "Dark"
+      "Oscuridad",
+      "Fuego",
+      "Agua",
+      "Rayo",
+      "Hielo",
+      "Sagrado",
+      "Viento"
     ],
-    "drops": "Oro",
-    "level": "4",
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-004.webp",
-    "id": 4
+    "drops": "50 Oro",
+    "level": "23",
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-003.webp"
   },
   {
     "nombre": "Spirit",
