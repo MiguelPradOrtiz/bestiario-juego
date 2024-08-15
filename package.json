@@ -4,7 +4,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "start": "node index.js",
+    "start": "node ../Backend/src/index.js",
     "serve": "vite preview"
   },
   "dependencies": {

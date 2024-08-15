@@ -126,5 +126,21 @@
     "level": "2",
     "id": 11,
     "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720854059013-COD-002.webp"
+  },
+  {
+    "nombre": "dwadaww",
+    "strong": [
+      "Fuego",
+      "Rayo"
+    ],
+    "weak": [
+      "Hielo",
+      "Oscuridad",
+      "Sagrado"
+    ],
+    "drops": "dawda",
+    "level": "wdawda",
+    "id": 12,
+    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1723695781096-profilePhoto-transformed.jpeg"
   }
 ]
