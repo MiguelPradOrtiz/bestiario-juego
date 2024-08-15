@@ -9,7 +9,13 @@
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.5",
     "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",  // Asegúrate de que vite esté aquí
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
+  
 }
 
  
