@@ -11,7 +11,7 @@
     "axios": "^1.7.2"
   },
   "devDependencies": {
-    "vite": "^4.0.0",  // Asegúrate de que vite esté aquí
+    "vite": "^4.0.0", 
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   }
