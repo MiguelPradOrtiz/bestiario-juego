@@ -18,7 +18,6 @@ app.use('/imagenes', express.static(path.join(__dirname, '../Imagenes')));
 
 //routes
 app.use(require('./routes/index'))
-app.use('/api/movies', require('./routes/movies'))
 app.use('/api/monster', require('./routes/monsters'));
 
 //servidor
