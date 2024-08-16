@@ -56,7 +56,7 @@ router.put('/:id', upload.single('imagen'), (req, res) => {
         };
 
         if (req.file) {
-            updatedMonster.url_imagen = `http://localhost:3000/imagenes/Castlevania/${req.file.filename}`;
+            updatedMonster.url_imagen = `https://bestiario-juego.onrender.com/imagenes/Castlevania/${req.file.filename}`;
         }
 
         monsters[index] = updatedMonster;
