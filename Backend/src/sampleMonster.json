@@ -22,7 +22,7 @@
     ],
     "drops": "50 Oro",
     "level": "23",
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/COD-003.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/COD-003.webp"
   },
   {
     "nombre": "Spirit",
@@ -35,7 +35,7 @@
     "drops": "Pocion",
     "level": "5",
     "id": 5,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720581878874-COD-005.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720581878874-COD-005.webp"
   },
   {
     "nombre": "Skeleton Blaze",
@@ -58,7 +58,7 @@
     "drops": "Wild Memory",
     "level": "5",
     "id": 6,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720582112215-COD-006.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720582112215-COD-006.webp"
   },
   {
     "nombre": "Fenrir",
@@ -71,7 +71,7 @@
     "drops": "Hot dog",
     "level": "5",
     "id": 7,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720590076037-COD-007.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720590076037-COD-007.webp"
   },
   {
     "nombre": "Esqueleto Sangriento",
@@ -84,7 +84,7 @@
     "drops": "$50",
     "level": "5",
     "id": 8,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720591391354-COD-008.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720591391354-COD-008.webp"
   },
   {
     "nombre": "Basilisco",
@@ -98,7 +98,7 @@
     "drops": "Jet Black",
     "level": "6",
     "id": 9,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720688142377-COD-010.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720688142377-COD-010.webp"
   },
   {
     "nombre": "Esqueleto",
@@ -111,7 +111,7 @@
     "drops": "Bronce",
     "level": "1",
     "id": 10,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720853994473-COD-001.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720853994473-COD-001.webp"
   },
   {
     "nombre": "Verdugo",
@@ -125,7 +125,7 @@
     "drops": "Pizza",
     "level": "2",
     "id": 11,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1720854059013-COD-002.webp"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1720854059013-COD-002.webp"
   },
   {
     "nombre": "dwadaww",
@@ -141,6 +141,6 @@
     "drops": "dawda",
     "level": "wdawda",
     "id": 12,
-    "url_imagen": "http://localhost:3000/imagenes/Castlevania/1723695781096-profilePhoto-transformed.jpeg"
+    "url_imagen": "https://bestiario-juego.onrender.com/imagenes/Castlevania/1723695781096-profilePhoto-transformed.jpeg"
   }
 ]

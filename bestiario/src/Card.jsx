@@ -29,7 +29,7 @@ export default function Card({ data, setData }) {
   };
 
   const handleUpdate = (updatedMonster) => {
-    axios.put(`http://localhost:3000/api/monster/${updatedMonster.id}`, updatedMonster)
+    axios.put(`https://bestiario-juego.onrender.com/api/monster/${updatedMonster.id}`, updatedMonster)
     .then(response => {
       setData(data.map(monster => (monster.id === updatedMonster.id ? updatedMonster : monster)));
     })
