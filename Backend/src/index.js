@@ -12,6 +12,7 @@ app.use(morgan('dev'))
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
+
 // ruta que se usa para tomar imagenes
 app.use('/imagenes', express.static(path.join(__dirname, '../Imagenes')));
 
