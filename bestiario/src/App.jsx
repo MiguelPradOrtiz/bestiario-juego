@@ -1,21 +1,23 @@
-import React, { useState, useEffect } from 'react'
-import Formulario from './Formulario'
-import Card from './Card'
+import React, { useState, useEffect } from 'react';
+import Formulario from './Formulario';
+import Card from './Card';
 import axios from 'axios';
-import './App.css'
+import './App.css';
 
-const App = () => {  
-
+const App = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/api/monster')
-    .then(response => {
-      setData(response.data);
-    })
-    .catch(error => {
-      console.error("Error en el fetching de datos", error);
-    });
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/monster`);
+        setData(response.data);
+      } catch (error) {
+        console.error("Error en el fetching de datos", error);
+      }
+    };
+
+    fetchData();
   }, []);
 
   const addMonster = (monster) => {
@@ -25,10 +27,10 @@ const App = () => {
   return (
     <div className="app">
       <h1 className='title'>Bestiario</h1>
-      <Formulario addMonster={addMonster}/>
-      <Card data={data} setData={setData}/>
+      <Formulario addMonster={addMonster} />
+      <Card data={data} setData={setData} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
