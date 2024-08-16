@@ -9,9 +9,7 @@ const App = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    const backendUrl = process.env.REACT_APP_BACKEND_URL;
-    console.log(backendUrl)
-    axios.get(`${backendUrl}/api/monster`)
+    axios.get(`https://bestiario-juego.onrender.com/api/monster`)
     .then(response => {
       setData(response.data);
     })
