@@ -9,7 +9,9 @@ const App = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/monster`)
+    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+    console.log(backendUrl)
+    axios.get(`${backendUrl}/api/monster`)
     .then(response => {
       setData(response.data);
     })
