@@ -49,7 +49,7 @@ function Formulario({addMonster}) {
         formData.append('level', level);
         formData.append('imagen', imagen);
     
-        axios.post('http://localhost:3000/api/monster', formData, {
+        axios.post('https://bestiario-juego.onrender.com/api/monster', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }

@@ -9,7 +9,7 @@ export default function Card({ data, setData }) {
   const [selectedMonster, setSelectedMonster] = useState(null);
   const [open, setOpen] = useState(false);
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:3000/api/monster/${id}`)
+    axios.delete(`https://bestiario-juego.onrender.com/api/monster/${id}`)
     .then(response => {
       setData(data.filter(monster => monster.id !== id));
     })
